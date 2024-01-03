@@ -1,6 +1,6 @@
 # HOW TO RUN THE FILE
 
-## GIT Clone WAY :
+## Run using GIT Clone and Live server :
 
 #### Note: I'll talk in terms of VS Code since i'm using that editor.
 
@@ -18,7 +18,7 @@
 
 7. Once the installation is done click **Go live** at the right bottom
 
-## Code Sandbox Way :
+## Run using code Sandbox :
 
 1. go to the website [Code Sandbox](https://codesandbox.io)
 
@@ -29,3 +29,11 @@
 4. Copy paste the code given in the files
 
 5. Click on run
+
+## Run using
+
+1. Install node
+
+2. Do npm init
+
+3. Inside package.json under scripts write something like "Scripts" : {"name of script" : "node path of the js file"}
