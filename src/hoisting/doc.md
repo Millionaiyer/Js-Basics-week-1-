@@ -33,20 +33,6 @@ here when we run the code the error is thrown that ReferenceError: b is not defi
 
 This basically proves that the javascript knows about the b so it bascially means b is hoisted to the top but the difference between var and let and const is , when Var is hoisted to the top it is hoisted with a default initialization of `undefined` while let and const are initialized without a default initialization.
 
-The reason that we get a reference error when we try to access a let or const variable before its declaration is because of the temporal dead zone (TDZ).
-
-```
-{
- 	// Start of foo's TDZ
-  	let bar = 'bar';
-	console.log(bar); // "bar"
-
-	console.log(foo); // ReferenceError because we're in the TDZ
-
-	let foo = 'foo';  // End of foo's TDZ
-}
-```
-
 ## Why , How and When to use Variable hoisting :
 
 Hoisiting isn't something you use on your own. You just need to know the concept and there is no why how or when to use hoisting. It just happens with a certain function or a variable. You can understand with the help of the above example.
