@@ -1,3 +1,4 @@
+// Only Run 1 EXAMPLE AT A TIME
 // EXAMPLE OF GLOBAL SCOPE
 
 var a = 10; // Global Scope

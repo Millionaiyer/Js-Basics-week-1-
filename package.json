@@ -1,0 +1,23 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "hoisting" : "node src/hoisting/index.js",
+    "varLetConst" : "node src/var-let-const/index.js",
+    "variableScope" : "node src/variable-scope/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Millionaiyer/Js-Basics-week-1-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Millionaiyer/Js-Basics-week-1-/issues"
+  },
+  "homepage": "https://github.com/Millionaiyer/Js-Basics-week-1-#readme"
+}
