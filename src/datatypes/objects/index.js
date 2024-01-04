@@ -1,6 +1,12 @@
-const person = {
-  name: "Suraj",
+let employee = {
+  name: 'Suraj',
+  age: 25,
+  gender: 'Male',
+  address: {
+    city: 'Mumbai',
+    country: 'India'
+  }
 };
-console.log(person);
-delete person.name;
-console.log(person);
+
+console.log(employee.name);
+console.log(employee.address.city);
