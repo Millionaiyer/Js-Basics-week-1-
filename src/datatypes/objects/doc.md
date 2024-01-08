@@ -1,4 +1,4 @@
-#Object
+# Object
 
 ## What is an Object
 
@@ -83,9 +83,9 @@ console.log(person[id])
 
 ```
 
-## Why and WHy to use objects :
+## How When and Why to use objects :
 
-1. It can be used to group similar data of an object and could be used to check individual data out of it
+- It can be used to group similar data of an object and could be used to check individual data out of it
 
 ```
 // Object representing a person
@@ -104,7 +104,7 @@ console.log(employee.address.city);
 
 ```
 
-2. Can be used to run multiple similar functionality under one object. Helps to write cleaner code.
+- Can be used to run multiple similar functionality under one object. Helps to write cleaner code.
 
 ```
 let calculate = {
@@ -120,21 +120,43 @@ console.log(calculate.add(5, 3));
 console.log(calculate.subtract(10, 4));
 ```
 
-## How to use objects
+### In Operator :
+
+It is possible to access property. The left side of in there must be a property name. That’s usually a string.
 
 ```
-let name = suraj;
-let age = 24;
-let city = Mumbai
+let obj = {
+  test: undefined
+};
 
-// Example of how to use objects
-const person = {
-    name : 'suraj',
-    age : 24,
-    city : 'Mumbai'
+alert( obj.test );
+
+alert( "test" in obj );
+```
+
+In case of undefined when we use object.key and if the value exists as undefined it returns as undefined instead of true, so we don't come to know if the property exists.
+
+Hence when we use key in object and check if the property is true or not.
+
+# For in Loop
+
+This is a special form of loop that uses in inside of for. It bascially checks if the property is true or not.
+
+```
+let user = {
+  name: "John",
+  age: 30,
+  isAdmin: true
+};
+
+for (let key in user) {
+  alert( key );
+  alert( user[key] );
 }
 ```
 
-In this example instead of writing multiple variables we can group all the variables together if they're related to each other.
+In this example the `alert(key)` would display all the keys in the object whereas `alert(user[key])` would display all the key values in the object.
 
 ## Related Links
+
+[Objects](https://javascript.info/object)
