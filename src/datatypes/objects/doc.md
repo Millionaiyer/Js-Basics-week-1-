@@ -31,6 +31,20 @@ console.log(person.displayInfo());
 
 ```
 
+here you can create a method which is a function inside an object to access it using this keyword
+
+```
+let company = {
+  name: "flyerssoft",
+  location: "Chennai",
+  details: function () {
+    return console.log(`the company name is ${this.name} and is located in `);
+  },
+};
+
+console.log(company.details());
+```
+
 ### Adding properties to an object :
 
 You can add properties to an object by using object.key = value
