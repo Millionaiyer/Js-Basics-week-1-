@@ -30,3 +30,25 @@ console.log(typeof(arr)) // returns object
 ```
 
 Here in this example we take the value of two reference types of datatypes where object is called as object but also arrays are called objects.
+
+### WHY HOW AND WHEN TO USE
+
+The `typeof` Operator returns a string indicating the type of operand value hence it is mostly used in cases tying to check what type of operand it is.
+
+```
+let abc = "string";
+
+if (typeof abc === "string") {
+  console.log("true");
+} else {
+  console.log("false");
+}
+```
+
+It can also be used in block statements like If - Else to return a value depening on the requirement.
+
+## Reference Links
+
+[typeof Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
+
+[typeof Operator live example](https://www.w3schools.com/js/tryit.asp?filename=tryjs_typeof_all)
