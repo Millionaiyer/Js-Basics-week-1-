@@ -136,3 +136,11 @@ console.log(a.name);
 ```
 
 The main reason why to use to make methods available in an object avaiable to the another object.
+
+## Reference Link
+
+[Object Prototype Inheritence - mdn](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+
+[Object Prototype Inheritence](https://www.codeguage.com/courses/js/objects-prototypes)
+
+[Object Prototype examples youtube - hindi](https://www.youtube.com/watch?v=eDxrLEQbLv0)
